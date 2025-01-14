@@ -7,6 +7,7 @@ public class NQueenProblem {
     void printSolution(int board[][])
     {
         System.out.println("hello world");
+        System.out.println("hello world 2");
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
                 if (board[i][j] == 1)
