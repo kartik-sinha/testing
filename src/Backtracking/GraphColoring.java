@@ -6,10 +6,6 @@ class Main {
 
     // A utility function to check if the current color assignment is safe for vertex v
     static boolean isSafe(int v, boolean[][] graph, int[] color, int c) {
-        System.out.println("hello world");
-        System.out.println();
-        System.out.println(        );
-        System.out.println();
         for (int i = 0; i < V; i++)
             if (graph[v][i] && c == color[i])
                 return false;
